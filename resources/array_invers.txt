@@ -4,3 +4,11 @@ Zusätzlich soll das Programm eine Boolean Variable einlesen, die angibt, ob
 das Array mehrere Wörter enthält.
 Sollte dies der Fall sein, splitten Sie die Wörter in einzelne Stringvariablen auf und geben Sie diese aus.
 Des Weiteren soll in diesem Fall jedes zweite Wort in Großbuchstaben geschrieben sein.
+
+Kopieren Sie dafür den folgenden Code in ihre Java Datei:
+
+public class array_invers {
+    public static void main(String[] args) {
+
+    }
+}

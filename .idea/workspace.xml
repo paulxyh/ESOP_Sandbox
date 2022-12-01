@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f442cfa-4a73-42d0-9092-59e51ded2b15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PracticeToolEsop.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/array_invers.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/config.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kowatschpaul/productive/practice/excBuilder.java" afterDir="false" />
+    <list default="true" id="1f442cfa-4a73-42d0-9092-59e51ded2b15" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/src/kowatschpaul/productive/practice/array_invers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kowatschpaul/testing/practice/array_inversTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kowatschpaul/utilities/testRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PracticeToolEsop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PracticeToolEsop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/array_invers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/array_invers.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kowatschpaul/productive/practice/excBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kowatschpaul/utilities/excBuilder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -40,10 +38,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -59,8 +62,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669912815775</updated>
-      <workItem from="1669912818555" duration="10068000" />
+      <workItem from="1669912818555" duration="16255000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1669923760042</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669923760042</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,5 +87,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>

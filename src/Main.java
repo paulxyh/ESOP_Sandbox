@@ -1,5 +1,6 @@
 import java.util.Scanner;
-import kowatschpaul.productive.practice.excBuilder;
+import kowatschpaul.utilities.excBuilder;
+import kowatschpaul.utilities.testRunner;
 
 public class Main {
 
@@ -21,9 +22,14 @@ public class Main {
                     System.out.println(exercises[choice][i] + "(" + i++ + ")");
                 }
                 int choiceExc = in.nextInt();
-                String task = "resources/" + exercises[choice][choiceExc] + ".txt";
+                String chosenEx = exercises[choice][choiceExc];
+                String task = "resources/" + chosenEx + ".txt";
                 //TODO ternäre Operation für TestSim einbauen
                 excBuilder.buildExercise(task);
+                System.out.println("Do you want to see a hint? y/n");
+
+                System.out.println("Please insert your code below: \n(if you are finished with your code start a new line and type 'end'");
+                testRunner.loadTest(chosenEx);
                 System.out.println("Do you want to exit(0) or keep practicing(1)?");
                 duration = in.nextInt();
             }

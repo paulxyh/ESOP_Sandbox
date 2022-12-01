@@ -1,4 +1,4 @@
-package kowatschpaul.productive.practice;
+package kowatschpaul.utilities;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
